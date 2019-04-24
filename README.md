@@ -6,7 +6,7 @@ Experience data engineering with Flight delay data sets
 
 Create ADLS gen 2 to store flights data
 Use Azure Portal to create the service and explorer
-Create Filesystem 
+Create Filesystem
 * consumption
 * curated
 * model
@@ -41,5 +41,6 @@ Create Azure Machine Learning Service
 Understand how to log runs using Azure Notebooks
 Install Azure ML SDK on Azure Databricks
 Simple logging
+AutoML
 
 
