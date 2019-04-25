@@ -1,5 +1,14 @@
 # Azure Data Factory
 
+## Copy data in bulk
+
+Ref: https://docs.microsoft.com/en-us/azure/data-factory/tutorial-bulk-copy-portal
+
+Copy SQL DB tables to ADLS gen 2
+
+
+## Day 2
+
 Move data from Blob to ADLS gen 2
 
 ## Copy a CSV file from web to ADLS 
