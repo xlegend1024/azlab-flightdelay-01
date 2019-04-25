@@ -38,7 +38,7 @@ Understand how to transform data
 ## Create Azure Machine Learning Service 
 
 Create Azure Machine Learning Service
-Understand how to log runs using Azure Notebooks
+Understand how to log runs using Azure ML SDK
 Install Azure ML SDK on Azure Databricks
 Simple logging
 AutoML
