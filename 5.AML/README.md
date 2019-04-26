@@ -6,27 +6,43 @@
 
 Fork 'Get-started'
 
-## Configure Azure Machinelearning Service 
+## Configure Azure Machinelearning Service
+
+Use notebook, _00.configuration.ipynb_
 
 ## Logging
 
-### Start experiment logging
-
-Experiment Name, owner and tagging
-
-Subrun logging
-
-Visualizde result
+Use notebook, _01.logging-api.ipynb_
 
 ### Leave your name and today date
 
+Continue to use notebook, _01.logging-api.ipynb_
+
+Experiment Name, owner and tagging
+
+### Start experiment logging
+
+Continue to use notebook, _01.logging-api.ipynb_
+
+Metrics logging
+
+Logging chart and table
+
 ## Register Model
 
-## Create a image 
+Use notebook, _02.register-model-create-image-deploy-service.ipynb_
+
+## Create a image
+
+Continue to use notebook, _02.register-model-create-image-deploy-service.ipynb_
 
 ## Depleoy a image
 
+Continue to use notebook, _02.register-model-create-image-deploy-service.ipynb_
+
 ## Interact with Model
+
+Continue to use notebook, _02.register-model-create-image-deploy-service.ipynb_
 
 ## (Optional) Auto ML
 
