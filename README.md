@@ -5,11 +5,7 @@
 Create ADLS gen 2 to store flights data
 Use Azure Portal to create the service and explorer
 Create Filesystem
-* consumption
-* curated
-* model
-* raw
-* scratchdir
+* landingzone
 * staging
 
 ## Create CosmosDB
