@@ -1,6 +1,6 @@
 # Azure Hands-on Lab - Data Engnieering
 
-## Create Azure Data Lake Storage Gen 2
+## 1. Create Azure Data Lake Storage Gen 2
 
 Create ADLS gen 2 to store flights data
 Use Azure Portal to create the service and explorer
@@ -8,18 +8,18 @@ Create Filesystem
 * landingzone
 * staging
 
-## Create CosmosDB
+## 2. Create CosmosDB
 
 Create CosmosDB to store some part of data 
 Use query to access data 
 
-## Create Azure Data Facotry 
+## 3. Create Azure Data Facotry 
 
 Create ADF to move flight data from blob to ADLS gen 2
 Use Copy Data tool to build data pipeline for the first time
 Use binary copy
 
-## Create Azure Databricks
+## 4. Create Azure Databricks
 
 Create Azure Databricks and import notebooks (Python)
 Understand how to transform data
@@ -29,7 +29,7 @@ Understand how to transform data
 * Run data engnieering notebooks
 
 
-## Create Azure Machine Learning Service 
+## 5. Create Azure Machine Learning Service 
 
 Create Azure Machine Learning Service
 Understand how to log runs using Azure ML SDK
