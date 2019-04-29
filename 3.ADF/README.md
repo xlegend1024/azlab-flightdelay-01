@@ -1,6 +1,6 @@
-# Azure Data Factory
+# 3. Azure Data Factory
 
-## Copy data in bulk
+## 3.1 Copy data in bulk
 
 Copy multiple tables from SQL Database to ADLS gen 2
 
@@ -10,11 +10,11 @@ First pipeline will look up SQL DB to get table list and then second pipeline wi
 
 ![pipeline](../images/tutorial-copy-multiple-tables.png)
 
-### Create Azure Data Factory
+### 3.1.1 Create Azure Data Factory
 
-### Create Linked Servcies
+### 3.1.2 Create Linked Servcies
 
-#### Create Linked Service for Source
+#### 3.1.2.1 Create Linked Service for Source
 
 SQL Database is source
 
@@ -26,13 +26,13 @@ SQL Database is source
 |User Name|```sqladmin```|
 |Password|```_password_```|
 
-#### Create Linked Service for Sink (destination)
+#### 3.1.2.2 Create Linked Service for Sink (destination)
 
 Azure Data Lake Storage Gen 2 is destination
 
-### Create Datasets
+### 3.1.3 Create Datasets
 
-#### Create Dataset for Source
+#### 3.1.3.1 reate Dataset for Source
 
 Create Azure SQL Database for source dataset
 
@@ -42,7 +42,7 @@ Check on edit checkbox and use any randomn table name
 
 ![parameter](../images/3.2.png)
 
-#### Create Dataset for Sink (destination)
+#### 3.1.3.2 Create Dataset for Sink (destination)
 
 Create _Parquet_ for destination dataset
 
@@ -54,7 +54,7 @@ Use ```landingzone``` as file path and ```@dataset().name``` as
 
 ![parameter](../images/3.1.png)
 
-### Create Pipeline
+### 3.1.4 Create Pipeline
 
 Create two pipeline like following
 
@@ -62,7 +62,7 @@ Create two pipeline like following
 
 First create copy pipeline and then create second pipleine for lookup
 
-#### Create Copy Pipeline
+#### 3.1.4.1 Create Copy Pipeline
 
 Create pipeline and name it as ```CopyTableToADLSg2``` 
 
@@ -100,7 +100,7 @@ Select _Parqeut_ for _sink dataset_ use following value
 
 ![parameter](../images/3.9.png)
 
-#### Create Lookup Pipeline
+#### 3.1.4.2 Create Lookup Pipeline
 
 Create a pipeline and name it as ```GetTableList```
 
@@ -123,9 +123,9 @@ Add a parameter ```tableList``` and use following value
 
 ![parameter](../images/3.4.png)
 
-### Run a Pipeline
+### 3.2 Run a Pipeline
 
-### Monitor the Pipeline Run
+### 3.3 Monitor the Pipeline Run
 
 ---
 Ref: https://docs.microsoft.com/en-us/azure/data-factory/tutorial-bulk-copy-portal

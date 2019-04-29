@@ -1,7 +1,5 @@
 # Azure Hands-on Lab - Data Engnieering
 
-Experience data engineering with Flight delay data sets
-
 ## Create Azure Data Lake Storage Gen 2
 
 Create ADLS gen 2 to store flights data

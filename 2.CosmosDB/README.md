@@ -1,6 +1,6 @@
-# CosmosDB
+# 2. CosmosDB
 
-## Intro
+## 2.1 Intro
 
 Request Unit?
 
@@ -12,17 +12,17 @@ If you continue to add new data to a single server or a single partition, it wil
 The partition and scale-out strategy in Azure Cosmos DB is driven by the partition key, which is a value set when you create a collection. Once the partition key is set, it cannot be changed without recreating the collection, so selecting the right partition key is an important decision to make early in your development process.
 In this unit, you will learn how to choose a partition key that's right for your scenario and will take advantage of the autoscaling that Azure Cosmos DB can do for you.
 
-## Create & Manage data
+## 2.2 Create & Manage data
 
-## Query Data
+## 2.3 Query Data
 
-## Monitor
+## 2.4 Monitor
 
 https://docs.microsoft.com/en-us/azure/cosmos-db/monitor-accounts
 
-## Distribute Data Globally
+## 2.5 Distribute Data Globally
 
-## Node.js sample app
+## (Optional) 2.6 Node.js sample app
 
 https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-nodejs-get-started#GetSolution
 
