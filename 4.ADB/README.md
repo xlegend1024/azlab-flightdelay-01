@@ -10,6 +10,8 @@ Scenario Architecture
 
 ## 4.3 Import Notebooks
 
+```https://github.com/xlegend1024/azlab-flightdelay-01/blob/master/4.ADB/FlightDelay-01.dbc```
+
 ## 4.4 Read data from Eventhub
 
 ### 4.4.1 Read Events
