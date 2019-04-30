@@ -1,10 +1,14 @@
 # Azure Machine Learning 
 
+Scenario Architecture
+
+![arch](../images/5.png)
+
 ## Create Azure Machine Learning
 
 ## Open Azure Notbooks
 
-Fork 'Get-started'
+Use ```xlegend1024/azlab-flightdelay-01``` to fork samples
 
 ## Configure Azure Machinelearning Service
 
