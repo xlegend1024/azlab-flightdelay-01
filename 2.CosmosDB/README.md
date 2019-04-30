@@ -18,11 +18,15 @@ In this unit, you will learn how to choose a partition key that's right for your
 
 ## 2.3 Query Data
 
+[SQL language reference for Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-query-reference)
+
 ## 2.4 Monitor
 
-https://docs.microsoft.com/en-us/azure/cosmos-db/monitor-accounts
+[Monitor](https://docs.microsoft.com/en-us/azure/cosmos-db/monitor-accounts)
 
 ## 2.5 Distribute Data Globally
+
+[Global Disribution](https://docs.microsoft.com/en-us/azure/cosmos-db/tutorial-global-distribution-sql-api)
 
 ## (Optional) 2.6 Node.js sample app
 
