@@ -1,5 +1,7 @@
 # 2. CosmosDB
 
+![overview](../images/2.00.jpg)
+
 ## 2.1 Intro
 
 Request Unit?

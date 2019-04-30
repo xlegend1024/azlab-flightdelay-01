@@ -1,5 +1,9 @@
 # 3. Azure Data Factory
 
+Scenario Architecture
+
+![arch](../images/3.png)
+
 ## 3.1 Copy data in bulk
 
 Copy multiple tables from SQL Database to ADLS gen 2
@@ -12,9 +16,13 @@ First pipeline will look up SQL DB to get table list and then second pipeline wi
 
 ### 3.1.1 Create Azure Data Factory
 
+![overview](../images/01.00.01.png)
+
 ### 3.1.2 Create Linked Servcies
 
 #### 3.1.2.1 Create Linked Service for Source
+
+![overview](../images/01.00.02.png)
 
 SQL Database is source
 
@@ -28,11 +36,15 @@ SQL Database is source
 
 #### 3.1.2.2 Create Linked Service for Sink (destination)
 
+![overview](../images/01.00.03.png)
+
 Azure Data Lake Storage Gen 2 is destination
 
 ### 3.1.3 Create Datasets
 
 #### 3.1.3.1 reate Dataset for Source
+
+![overview](../images/01.00.04.png)
 
 Create Azure SQL Database for source dataset
 
@@ -43,6 +55,8 @@ Check on edit checkbox and use any randomn table name
 ![parameter](../images/3.2.png)
 
 #### 3.1.3.2 Create Dataset for Sink (destination)
+
+![overview](../images/01.00.05.png)
 
 Create _Parquet_ for destination dataset
 
@@ -64,7 +78,9 @@ First create copy pipeline and then create second pipleine for lookup
 
 #### 3.1.4.1 Create Copy Pipeline
 
-Create pipeline and name it as ```CopyTableToADLSg2``` 
+![overview](../images/01.00.06.png)
+
+Create pipeline and name it as ```CopyTableToADLSg2```
 
 Add parameter at pipeline level, name it ```tableList``` and choose type as _Array_
 
@@ -90,13 +106,17 @@ Go to _Source_ tab and use following query
 SELECT * FROM [@{item().TABLE_SCHEMA}].[@{item().TABLE_NAME}]
 ```
 
-Go to _Sink_ tab 
+> `TABLE_SCHEMA` and `TABLE_NAME` will be given from another activity later in this lab
+
+Go to _Sink_ tab
 
 Select _Parqeut_ for _sink dataset_ use following value
 
 ```text
 @{item().TABLE_SCHEMA}_@{item().TABLE_NAME}
 ```
+
+> `TABLE_SCHEMA` and `TABLE_NAME` will be given from another activity later in this lab
 
 ![parameter](../images/3.9.png)
 

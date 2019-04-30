@@ -1,27 +1,31 @@
 # 4. Azure Databricks
 
-## Create ADB Workspace
+Scenario Architecture
 
-## Create Cluster
+![arch](../images/4.png)
 
-## Import Notebooks
+## 4.1 Create ADB Workspace
 
-## Read data from Eventhub
+## 4.2 Create Cluster
 
-### Read Events
+## 4.3 Import Notebooks
 
-### Save Data
+## 4.4 Read data from Eventhub
 
-## Read data from CosmosDB
+### 4.4.1 Read Events
 
-### Read Data
+### 4.4.2 Save Data
 
-### Save Data
+## 4.5 Read data from CosmosDB
 
-## Mount ADSL gen 2
+### 4.5.1 Read Data
 
-### Read Files
+### 4.5.2 Save Data
 
-### Join Data
+## 4.6. Mount ADSL gen 2
 
-### Save Data
+### 4.6.1 Read Files
+
+### 4.6.2 Join Data
+
+### 4.6.3 Save Data

@@ -4,13 +4,12 @@
 
 ## 1.2 Create File System
 
-Create a file system and name it as 'landingzone'
+Create a file systems :
+* `landingzone`
+* `staging`
+* `clean`
 
-## 1.3 Create a folder
-
-Create a folder and name it as 'sqldb'
-
-## 1.4 Manage Access
+## 1.3 Manage Access
 
 Azure Data Lake Storage Gen2 provides a first-class data lake solution that allows enterprises to pull together their data. It's built on Azure Blob storage, so it inherits all of the security features we've reviewed in this module.
 Along with role-based access control (RBAC), Azure Data Lake Storage Gen2 provides access control lists (ACLs) that are POSIX-compliant and that restrict access to only authorized users, groups, or service principals. It applies restrictions in a way that's flexible, fine-grained, and manageable. Azure Data Lake Storage Gen2 authenticates through Azure Active Directory OAuth 2.0 bearer tokens. This allows for flexible authentication schemes, including federation with Azure AD Connect and multifactor authentication that provides stronger protection than just passwords.
