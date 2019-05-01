@@ -1,7 +1,7 @@
 # SP information for ADB labs
 
-SPN: ```DatabricksTrainingSPN```
+SPN: ```need```
 
-SPN ID: ```9917a976-ccfa-4a8f-8894-5000f5c4697c```
+SPN ID: ```need```
 
-SPN Key: T```FDKWp9Y9gCDMHFbEDDsVr9AOu/f/ok7dGvq035BYA8=```
+SPN Key: ```need```
